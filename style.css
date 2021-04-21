@@ -1,0 +1,63 @@
+body {
+  margin: 0px !important;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+nav ul {
+  margin-bottom: 0px !important;
+
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  
+}
+ body{
+  text-align: center;
+
+ }
+header {
+	padding: 0em 3em 0px 3em;
+	text-align: center;
+	background: #244569;
+	color: white;
+}
+
+h1 {
+	padding: 0em;
+}
+
+nav ul li a {
+	color: #c86b2d;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p , p a , footer a {
+  font-weight: 300;
+}
+ 
+section, footer {
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  color:#424242;
+}
+nav ul li.active {
+
+  background-color: white;
+  
+}
+div {
+  color: #424242;
+  line-height: 1;
+  width: 100%;
+}
+nav ul li.active a {
+  color:#244569;
+}
