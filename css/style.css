@@ -16,7 +16,8 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 0px;
+  padding-bottom: 10%;
 }
 
 section p {
@@ -43,6 +44,7 @@ section a {
    position: relative;
    border: 0;  
    width: 100%;
+   height: 50%;
    margin: 0px;
 }
 
@@ -53,14 +55,10 @@ h4 {
    text-decoration: 100px;
    padding:0px; 
    margin: 0px;      
-   top: 40px;
+   top: 15%;
    width: 100%;
 }
 
-#griglia {
-padding: 0;
-margin: 0;
-}
 
 #griglia > li {
 display: inline-block;
@@ -74,11 +72,9 @@ background-color: #f1e4d1;
 #container {
 background: #f1e4d1;
 margin-top: 30px;
-padding: 10px;
-margin-right: 0;
 text-align: center;
-padding-bottom: 50px;
-padding-right: 50px;
+padding-bottom: 5%;
+padding-right: 5%;
 }
 
 #container1 {
