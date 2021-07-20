@@ -109,11 +109,20 @@ h4 {
 	padding-bottom: 0;
 }
 
+div.container p#definizione{
+	border-color: #f1e4d1;
+	color: black;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 25px !important;
+
+}
+
 div.services {
-	margin:auto;
-	background-color: white;
-	padding-bottom: 30px;
-	padding-top: 10px;
+	margin-bottom: 0px;
+	background-color: #f1e4d1;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 
 div.services div.container div.row div.col-sm {
@@ -129,6 +138,8 @@ div.services div.container {
 div.container#services div.row div.col-sm {
 	padding-left: 0px;
 	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -160,13 +171,6 @@ div.container {
 	margin: 0px;
 }
 
-div.container p#definizione{
-	border-color: #f1e4d1;
-	color: black;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 25px !important;
-}
 
 section, footer {
   padding: 2em;
@@ -200,7 +204,16 @@ div.services h3.servizi {
 	border-bottom: 2px solid white;
 
 }
+div.services h3.servizi {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em !important;
+	color: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 2px solid white;
 
+}
 @media only screen and (max-device-width: 480px) {
 	div.services h3.servizi {
 		font-size: 1em !important;
@@ -225,6 +238,14 @@ padding-bottom: 5%;
 padding-right: 5%;
 }
 
+@media only screen and (max-device-width: 480px) {
+	div.griglia {
+		padding: 0px;
+		margin-left: 10px;
+		width: 100%;
+	}
+}
+
 table thead tr th {
 text-align: left;  
   }
@@ -238,7 +259,7 @@ text-align: left;
 .img-hover-zoom {
   overflow: hidden; 
 }
-
+/*funz transizione, quando spostiamo il mouse sopra*/
 .img-hover-zoom img {
   transition: transform .1s ease;
 }
@@ -257,6 +278,9 @@ div.card-footer a:link, div a:visited {
   border-radius: 8px;
 }
 
+.card-footer {
+	text-align: center;
+}
 
 .button {
 	padding: 0px;
@@ -277,11 +301,6 @@ div a:hover {
 	background-color: white;
 }
 
-.card-footer {
-	
-	text-align: center;
-}
-
 h3 {
 	font-family: 'Montserrat', serif;
 	font-weight: bold !important;
@@ -289,8 +308,6 @@ h3 {
 	text-align: center;
 	padding-bottom: 10px;
 }
-
-
 
 div.card-body p {
 	font-family: 'Montserrat', sans-serif;
@@ -308,100 +325,25 @@ div.card-body {
 
 
 
-
 h2 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 600;
-	font-size: 5vw !important;
+	font-family: 'Roboto', serif;
+	font-weight: 200;
+	font-size: 3vw !important;
 	padding-top: 1em;
 	padding-bottom: 0px;
 	padding-left: 45px;
+	color: #4c6072;
 }
-
+/*
 .card-racconti {
 	margin: auto;
 	width: 90%;
 }
-
+*/
 .justify-content-center {
 	padding-top: 20px;
 }
 
-/*
-p.nome {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 20px !important;
-	text-transform: uppercase;
-	padding-top: 0.5em;
-	padding-left: 50px;
-	margin-bottom: 2px;
-
-}
-
-
-@media only screen and (max-device-width: 480px) {
-	#singola, #singola div.card-body{
-		border: 0px solid white;
-		padding-top: 0px;
-		margin-top: 0px;
-		width: 100% !important;
-	}
-}
-
-@media only screen and (max-device-width: 480px) {
-	#singola p{
-	margin-left: 2px !important;
-	font-size: 1.1em !important;
-
-}
-}
-
-@media only screen and (max-device-width: 480px) {
-	#singola p.nome{
-	margin-left: 0px;
-	padding-left: 20px;
-
-}
-}
-
-@media only screen and (max-device-width: 480px) {
-	#singola h2{
-	margin-left: 20px !important;
-	font-size: 1.5em !important;
-	padding-left: 0px;
-}
-}
-
-@media only screen and (max-device-width: 480px) {
-	#singola p.tempo-lettura{
-	padding-left: 20px !important;
-	font-size: 1em !important;
-	margin-bottom: 0px;
-}
-}
-
-#singola {
-	margin: auto;
-	margin-top: 10px;
-	width: 90%;
-}
-
-#singola img {
-	width: 100%;
-}
-
-p.racconto {
-	font-family: 'Zilla Slab', serif !important;
-	font-weight: 300 !important;
-	font-size: 20px !important;
-	text-align: left !important;
-	padding-top: 1em;
-	width: 92% !important;
-	margin-left: 30px;
-	margin-right: 10px !important;
-}
-*/
 div nav ul li a.page-link {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -433,31 +375,7 @@ div nav ul li a.page-link:hover {
 	background-color: white;
 }
 
-/*.altri-racconti {
-	margin-top: 3em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	background-color: #D0E1D4;
-}
 
-div.altri-racconti h3.more-posts {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	color: black;
-	font-size: 1.5em !important;
-}
-
-
-
-.tempo-lettura {
-	font-family: 'Zilla Slab', serif;
-	font-weight: 300;
-	font-size: 20px !important;
-	padding-left: 2.5em;
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-*/
 img.card-racconti {
 	margin: auto;
 }
@@ -470,12 +388,12 @@ span {
 span.intro{
 	color: black;
 	font-size: 30px;
-	padding-top: 12px;
+	padding:0px;
 }
 
 #definizione {
 	text-align: center;
-	border: 5px solid #f1e4d1; 
+	border: 5px solid white; 
 	border-radius: 8px;
 	padding: 0.5em 1em;
 	font-family: 'Montserrat', serif;
@@ -549,7 +467,7 @@ body div.container {
 body div.container#servizi {
 	margin: auto;
 	background-color: white;
-	margin-top: 50px;
+	padding-top: 0px;
 	padding: 5%;
 	padding-bottom: 5%;
 	
@@ -589,7 +507,7 @@ body div.container p.info {
 }
 
 @media only screen and (max-device-width: 480px) {
-	body div.container p#mail {
+	body div.container p#book {
 		padding-top: 10px;
 		margin-left: 10px;
 		font-size: 20px;
@@ -613,13 +531,13 @@ body div.container p a:hover{
 	text-decoration: none;
 }
 
-
+/*
 @media only screen and (max-device-width: 480px) {
 	div.container div.card div#singola {
 		border:  white !important;
 	}
 }
- 
+*/
 .navbar-toggler-icon {
 	color: black;
 	font-size: 1.2em;
@@ -656,7 +574,7 @@ div.documentazione p#risultati {
 	margin-right: 10px;
 }
 
-div.documentazione p.titolino {
+div.documentazione p.puntato {
 	font-family: 'Montserrat', sans-serif !important;
 	font-weight: 300;
 	font-size: 20px;
@@ -676,19 +594,6 @@ div.documentazione div.container#colori {
 	padding-bottom: 30px;
 }
 
-div.documentazione div.container#volantino {
-	width: 25%;
-}
-
-div.documentazione div.row {
-	width: 40%;
-	margin: auto;
-}
-
-figcaption {
-	font-family: 'Montserrat', sans-serif !important;
-	font-weight: 300;
-}
 
 div.documentazione ul {
 	list-style-type: none;
@@ -729,7 +634,7 @@ div.documentazione ul li {
 }
 
 @media only screen and (max-device-width: 480px) {
-	div.documentazione p.titolino {
+	div.documentazione p.puntato {
 		margin-left: 20px;
 	}
 }
@@ -749,12 +654,13 @@ div.documentazione ul li {
 div.documentazione a:hover {
 	background-color: white;
 	font-weight: bold;
-	color: #FFBE79;
+	color: #52715f;
 	text-decoration: none;
 }
 
 div.documentazione a {
 	background-color: white;
-	color: #FFBE79;
+	color: #52715f;
 	text-decoration: none;
 }
+
